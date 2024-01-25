@@ -1,0 +1,49 @@
+.emojis {
+    display: grid;
+    gap: 20px;
+    padding: 10px;
+    grid-template-columns: 30% 30%;
+}
+
+.emoji {
+    border: 1px solid #18171C;
+    border-radius: 8px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    padding: 2px;
+    order: 2;
+}
+
+.icon {
+    font-size: 4rem;
+    order: 1;
+    margin: auto;
+}
+
+.emoji p{
+    order: 3;
+    font-family: sans-serif;
+}
+
+.emoji a {
+    display: inline-block;
+    background-color: rgb(118, 54, 161);
+    color: white;
+    padding: 12px 180px 11px 17px;
+    text-decoration: none;
+    border-radius: 7px;
+    margin-top: 5px;
+    order: 4;
+    font-family: sans-serif;
+}
